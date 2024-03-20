@@ -5,7 +5,7 @@ from io import BytesIO
 import uuid
 import numpy as np
 import base64
-from enhancer import Enhancer
+from enhancer.enhancer import Enhancer
 
 
 TEMP_PATH = 'temp'

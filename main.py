@@ -1,6 +1,6 @@
 from PIL import Image
 import numpy as np
-from enhancer import Enhancer
+from enhancer.enhancer import Enhancer
 import argparse
 
 
