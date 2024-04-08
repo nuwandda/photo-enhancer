@@ -11,7 +11,6 @@ from enhancer.enhancer import Enhancer
 TEMP_PATH = 'temp'
 ENHANCE_METHOD = os.getenv('METHOD')
 BACKGROUND_ENHANCEMENT = os.getenv('BACKGROUND_ENHANCEMENT')
-UPSCALE = os.getenv('UPSCALE')
 if ENHANCE_METHOD is None:
     ENHANCE_METHOD = 'gfpgan'
 
@@ -20,10 +19,7 @@ if BACKGROUND_ENHANCEMENT is None:
 else:
     BACKGROUND_ENHANCEMENT = True if BACKGROUND_ENHANCEMENT == 'True' else False
 
-if UPSCALE is None:
-    UPSCALE = 2
-
-enhancer = Enhancer(method=ENHANCE_METHOD, background_enhancement=BACKGROUND_ENHANCEMENT, upscale=UPSCALE)
+enhancer = Enhancer(method=ENHANCE_METHOD, background_enhancement=BACKGROUND_ENHANCEMENT, upscale=2)
 
 
 async def enhance(enhanceBase: _schemas._EnhanceBase) -> Image:
