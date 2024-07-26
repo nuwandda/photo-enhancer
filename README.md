@@ -143,4 +143,6 @@ To run the streamlit app, in a terminal, type:
   ```
 Then, the streamlit app will launch in a new window.
 
+![sample_image](samples/streamlit_app.png "Steamlit App Example")
+
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
