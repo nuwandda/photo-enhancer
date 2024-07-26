@@ -136,4 +136,13 @@ To run the container, in a terminal, type:
   ```
 Then, visit <a href="http://localhost/docs">http://localhost/docs</a> to see the endpoints.
 
+## Run the streamlit app
+To run the streamlit app, in a terminal, type:
+  ```sh
+  streamlit run streamlit_app.py --server.enableXsrfProtection false
+  ```
+Then, the streamlit app will launch in a new window.
+
+![sample_image](samples/streamlit_app.png "Steamlit App Example")
+
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>
