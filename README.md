@@ -98,7 +98,7 @@ To install the required packages, in a terminal, type:
 ### Run the project
 To run the project, in a terminal, type:
   ```sh
-  python main.py --method gfpgan --image_path samples/family.jpg --output_path output_x2.jpg --upscale 
+  python main.py --method gfpgan --image_path samples/family.jpg --output_path output_x2.jpg --upscale 2
   ```
 You will see the output image in the given output path.
 
